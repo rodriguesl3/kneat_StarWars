@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kneat.SWApi.Domain\Kneat.SWApi.Domain.csproj" />
+    <ProjectReference Include="..\Kneat.SWApi.Infrastructure\Kneat.SWApi.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
